@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/teleopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1790dp"
+        android:layout_marginBottom="15dp"
+        android:text="TO TELEOP"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/grHatch1Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sandstormText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sandstorm"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/grHatch1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="3dp"
+        android:text="Ground Hatch"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sandstormText" />
+
+    <TextView
+        android:id="@+id/grCargo1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Ground Cargo"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grHatch1Text" />
+
+    <TextView
+        android:id="@+id/stHatch1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Station Hatch"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grCargo1Text" />
+
+    <TextView
+        android:id="@+id/stCargo1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Station Cargo"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stHatch1Text" />
+
+    <TextView
+        android:id="@+id/drCargo1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Drop Cargo"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stCargo1Text" />
+
+    <TextView
+        android:id="@+id/drHatch1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Drop Hatch"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drCargo1Text" />
+
+    <TextView
+        android:id="@+id/hatchR11Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Hatch R1"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drHatch1Text" />
+
+    <TextView
+        android:id="@+id/hatchR21Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Hatch R2"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hatchR11Text" />
+
+    <TextView
+        android:id="@+id/hatchR31Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Hatch R3"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf= "@+id/hatchR21Text"/>
+
+    <TextView
+        android:id="@+id/hatchCS1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Hatch CS"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf= "@+id/hatchR31Text"/>
+
+    <TextView
+        android:id="@+id/cargoR11Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Cargo R1"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf= "@+id/hatchCS1Text" />
+
+    <TextView
+        android:id="@+id/cargoR21Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Cargo R2"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cargoR11Text" />
+
+    <TextView
+        android:id="@+id/cargoR31Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Cargo R3"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cargoR21Text" />
+
+    <TextView
+        android:id="@+id/cargoCS1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Cargo CS"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cargoR31Text" />
+
+    <Button
+        android:id="@+id/grHatchPlus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/grHatch1Text" />
+
+    <TextView
+        android:id="@+id/grHatch1"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/grHatchPlus1"
+        app:layout_constraintTop_toTopOf="@+id/grHatch1Text" />
+
+    <Button
+        android:id="@+id/grHatchMinus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/grHatch1Text"
+        app:layout_constraintStart_toEndOf="@+id/grHatch1" />
+
+    <Button
+        android:id="@+id/grCargoPlus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/grCargo1Text" />
+
+    <TextView
+        android:id="@+id/grCargo1"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/grCargoPlus1"
+        app:layout_constraintTop_toTopOf="@+id/grCargo1Text" />
+
+    <Button
+        android:id="@+id/grCargoMinus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/grCargo1Text"
+        app:layout_constraintStart_toEndOf="@+id/grCargo1" />
+
+    <Button
+        android:id="@+id/stHatchPlus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/stHatch1Text" />
+
+    <TextView
+        android:id="@+id/stHatch1"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/stHatchPlus1"
+        app:layout_constraintTop_toTopOf="@+id/stHatch1Text" />
+
+    <Button
+        android:id="@+id/stHatchMinus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/stHatch1Text"
+        app:layout_constraintStart_toEndOf="@+id/stHatch1" />
+
+    <Button
+        android:id="@+id/stCargoPlus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/stCargo1Text" />
+
+    <TextView
+        android:id="@+id/stCargo1"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/stCargoPlus1"
+        app:layout_constraintTop_toTopOf="@+id/stCargo1Text" />
+
+    <Button
+        android:id="@+id/stCargoMinus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/stCargo1Text"
+        app:layout_constraintStart_toEndOf="@+id/stHatch1" />
+
+    <Button
+        android:id="@+id/drHatchPlus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/drHatch1Text" />
+
+    <TextView
+        android:id="@+id/drHatch1"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/drHatchPlus1"
+        app:layout_constraintTop_toTopOf="@+id/drHatch1Text" />
+
+    <Button
+        android:id="@+id/drHatchMinus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/drHatch1Text"
+        app:layout_constraintStart_toEndOf="@+id/drHatch1" />
+
+    <Button
+        android:id="@+id/hatchR1Plus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hatchR11Text" />
+
+    <TextView
+        android:id="@+id/hatchR11"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/hatchR1Plus1"
+        app:layout_constraintTop_toTopOf="@+id/hatchR11Text" />
+
+    <Button
+        android:id="@+id/hatchR1Minus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/hatchR11Text"
+        app:layout_constraintStart_toEndOf="@+id/hatchR11" />
+
+    <Button
+        android:id="@+id/hatchR2Plus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hatchR21Text" />
+
+    <TextView
+        android:id="@+id/hatchR21"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/hatchR2Plus1"
+        app:layout_constraintTop_toTopOf="@+id/hatchR21Text" />
+
+    <Button
+        android:id="@+id/hatchR2Minus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/hatchR21Text"
+        app:layout_constraintStart_toEndOf="@+id/hatchR21" />
+
+    <Button
+        android:id="@+id/hatchR3Plus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hatchR31Text" />
+
+    <TextView
+        android:id="@+id/hatchR31"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/hatchR3Plus1"
+        app:layout_constraintTop_toTopOf="@+id/hatchR31Text" />
+
+    <Button
+        android:id="@+id/hatchR3Minus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/hatchR31Text"
+        app:layout_constraintStart_toEndOf="@+id/hatchR31" />
+
+    <Button
+        android:id="@+id/hatchCSPlus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hatchCS1Text" />
+
+    <TextView
+        android:id="@+id/hatchCS1"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/hatchCSPlus1"
+        app:layout_constraintTop_toTopOf="@+id/hatchCS1Text" />
+
+    <Button
+        android:id="@+id/hatchCSMinus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/hatchCS1Text"
+        app:layout_constraintStart_toEndOf="@+id/hatchCS1" />
+
+    <Button
+        android:id="@+id/drCargoPlus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/drCargo1Text" />
+
+    <TextView
+        android:id="@+id/drCargo1"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/drCargoPlus1"
+        app:layout_constraintTop_toTopOf="@+id/drCargo1Text" />
+
+    <Button
+        android:id="@+id/drCargoMinus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/drCargo1Text"
+        app:layout_constraintStart_toEndOf="@+id/drCargo1" />
+
+    <Button
+        android:id="@+id/cargoR1Plus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cargoR11Text" />
+
+    <TextView
+        android:id="@+id/cargoR11"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/cargoR1Plus1"
+        app:layout_constraintTop_toTopOf="@+id/cargoR11Text" />
+
+    <Button
+        android:id="@+id/cargoR1Minus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/cargoR11Text"
+        app:layout_constraintStart_toEndOf="@+id/cargoR11" />
+
+    <Button
+        android:id="@+id/cargoR2Plus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cargoR21Text" />
+
+    <TextView
+        android:id="@+id/cargoR21"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/cargoR2Plus1"
+        app:layout_constraintTop_toTopOf="@+id/cargoR21Text" />
+
+    <Button
+        android:id="@+id/cargoR2Minus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/cargoR21Text"
+        app:layout_constraintStart_toEndOf="@+id/cargoR21" />
+
+    <Button
+        android:id="@+id/cargoR3Plus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cargoR31Text" />
+
+    <TextView
+        android:id="@+id/cargoR31"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/cargoR3Plus1"
+        app:layout_constraintTop_toTopOf="@+id/cargoR31Text" />
+
+    <Button
+        android:id="@+id/cargoR3Minus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/cargoR31Text"
+        app:layout_constraintStart_toEndOf="@+id/hatchR31" />
+
+    <Button
+        android:id="@+id/cargoCSPlus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cargoCS1Text" />
+
+    <TextView
+        android:id="@+id/cargoCS1"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintStart_toEndOf="@+id/cargoCSPlus1"
+        app:layout_constraintTop_toTopOf="@+id/cargoCS1Text" />
+
+    <Button
+        android:id="@+id/cargoCSMinus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/cargoCS1Text"
+        app:layout_constraintStart_toEndOf="@+id/hatchR31" />
+</android.support.constraint.ConstraintLayout>
